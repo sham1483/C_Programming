@@ -1,0 +1,17 @@
+#include<stdint.h>
+int main()
+{
+    char ch ='A';
+    int i = 11;
+    float f = 90.99f;
+    double d = 78.67890;
+
+    printf("L values of all variables\n");
+    printf("%d\n",&ch);
+    printf("%d\n",&i);
+    printf("%d\n",&f);
+    printf("%d\n",&d);
+    
+
+    return 0;
+}
