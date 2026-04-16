@@ -1,0 +1,15 @@
+#include<stdint.h>
+int main()
+{
+   int i = 10;
+   int j = 10;
+    
+   i++; //increment
+   j--; //decrement
+
+   printf("value of i is %d\n",i);
+   printf("value of j is %d\n",j);
+
+
+    return 0;
+}
