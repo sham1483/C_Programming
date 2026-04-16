@@ -1,0 +1,17 @@
+#include<stdint.h>
+int main()
+{
+    char ch ='A';
+    int i = 11;
+    float f = 90.99f;
+    double d = 78.67890;
+
+    printf("size of all variable \n");
+    printf("%d\n",sizeof(ch));  //1
+    printf("%d\n",sizeof(i));   //4
+    printf("%d\n",sizeof(f));   //4
+    printf("%d\n",sizeof(d));   //8
+    
+
+    return 0;
+}
