@@ -1,3 +1,5 @@
+// const is Datatype Qualifier
+
 #include<stdint.h>
 int main()
 {
