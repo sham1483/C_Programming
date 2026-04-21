@@ -1,0 +1,17 @@
+#include<stdio.h>
+#pragma pack(1) //preprocessor derictive
+
+    struct Demo //Decleration
+    {
+        int i;  //4
+        char ch;    //1 Generate padding
+        float f;    //4
+    };
+    
+int main()
+{
+   struct Demo dobj;
+   printf("%d\n",sizeof(dobj)); //9
+   return 0;
+    
+}
