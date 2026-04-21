@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+
+    struct Demo //Decleration
+    {
+        float f;
+        int i;
+
+    };
+    
+int main()
+{
+
+    struct Demo arr[4];
+
+    arr[0].i=11;
+    arr[0].f=11.00;
+
+    arr[1].i=21;
+    arr[1].f=21.00;
+
+    arr[2].i=51;
+    arr[2].f=51.00;
+
+    arr[3].i=101;
+    arr[3].f=101.00;
+
+    printf("%d\n",arr[2].i); //51
+    printf("%f\n",arr[1].f); //21.00
+    printf("size of arr is %d\n",sizeof(arr)); //32
+   
+   return 0;
+    
+}
