@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    char carr[4]={'A','B','C','D'};
+    int iarr[4]={10,20,30,40};
+    float farr[4]={10.0f,20.0f,30.0f,40.0f};
+    double darr[4]={10.0,20.0,30.0,40.0};
+
+
+    printf("size of character array is %d\n",sizeof(carr));   //4 byte
+    printf("size of integer array is %d\n",sizeof(iarr));   //16 byte
+    printf("size of float array is %d\n",sizeof(farr));   //16 byte
+    printf("size of double array is %d\n",sizeof(darr));   //32 byte
+
+
+    return 0;
+}
