@@ -1,0 +1,16 @@
+#include<stdint.h>
+int main()
+{
+    int arr[4]={10,20,30,40};   //member initilization list with size
+    int brr[]={10,20,30,40};    //member initilization list without size
+    int crr[4];                 //member by member initilization 
+
+    crr[0]=10;
+    crr[1]=20;
+    crr[2]=30;
+
+    printf("%d\n",arr[0]);
+    printf("%d\n",brr[0]);
+    printf("%d\n",crr[0]);
+    return 0;
+}
