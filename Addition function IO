@@ -1,0 +1,22 @@
+#include<stdio.h> 
+int addition(int no1,int no2)
+{
+    int ans=0;
+    ans=no1+no2; //buisness logic
+    return ans;
+}
+
+
+int main() 
+{  
+    int ret=0,a=0,b=0;
+
+    printf("Enter First No:");
+    scanf("%d",&a);
+    printf("Enter Second No:");
+    scanf("%d",&b);
+
+    ret=addition(a,b);
+    printf("Addition:%d\n",ret);
+    return 0;
+}
