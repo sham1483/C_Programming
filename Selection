@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int No = 0;
+
+    printf("Enter No:\n");
+    scanf("%d",&No);
+
+    if(No % 2 == 0)
+    {
+        printf("Its Even No\n");
+    }else
+    {
+        printf("Its Odd No");
+    }
+
+
+    return 0;
+}
