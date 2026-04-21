@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main()
+{
+    int Age = 0;
+
+    printf("your age is:");
+    scanf("%d",&Age);
+    return 0 ;
+}
